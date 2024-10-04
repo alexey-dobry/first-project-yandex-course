@@ -12,8 +12,9 @@ body, p , h1, h2,div{
 }
 
 .header {
-  /*max-height: px;*/
-  min-height: 756px;
+  max-height: 756px;
+  min-height: 600px;
+  height: 100vh;
   position: relative;
   display: flex;
   background-color: #f1f1f1;
@@ -79,7 +80,6 @@ body, p , h1, h2,div{
   display:flex;
   align-items: start;
   width: 80%;
-  /*min-height: 600px;*/
   margin: 100px auto 0 auto;
   justify-content: space-between;
 }
@@ -89,7 +89,6 @@ body, p , h1, h2,div{
   font-size: 18px;
   font-weight: normal;
   width: 175px;
-  /*align-self: baseline;*/
   text-decoration: none;
 }
 
@@ -144,7 +143,7 @@ body, p , h1, h2,div{
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 30px;
-  padding-top:30px; /* временное решение. ОБЯЗАТЕЛЬНО ПЕРЕДЕЛАТЬ*/
+  padding-top:30px;
 }
 
 .table__cell {
@@ -180,7 +179,7 @@ body, p , h1, h2,div{
   flex-direction: column;
   background-color: #f1f1f1;
 }
-/* понять все что ниже написано*/
+
 .feynman__title {
   width: 648px;
   text-align: center;
@@ -305,5 +304,5 @@ body, p , h1, h2,div{
 }
 
 .logo_place_footer {
-  /* why do i even need this*/
+  /*?*/
 }
